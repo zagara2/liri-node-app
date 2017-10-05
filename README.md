@@ -49,5 +49,5 @@ The user types "node liri.js" into the terminal/git bash followed by their comma
 
 ## Future Plans for Improvement
 * Find a new free API of movies other than OMDB, since OMDB is no longer free to use.
-* Follow the instructions at https://developer.spotify.com/migration-guide-for-unauthenticated-web-api-calls/ and https://developer.spotify.com/web-api/tutorial/ to see if I can set up the access token that is now necessary for the Spotify API. I'm not sure if this will work for a command line app that does not use a server?
+* Follow the instructions at https://developer.spotify.com/migration-guide-for-unauthenticated-web-api-calls/ and https://developer.spotify.com/web-api/tutorial/ to see if I can set up the oAuth access token that is now necessary for the Spotify API. I'm not sure if this will work for a command line app that does not use a server?
 
