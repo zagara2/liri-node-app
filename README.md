@@ -1,7 +1,7 @@
 # LIRI Bot
 
 ## IMPORTANT!
-**Due to privacy changes in the OMDB and Spotify APIs, a number of LIRI's core functions are disabled at the moment.**
+**Due to recent privacy changes in the OMDB and Spotify APIs, a number of LIRI's core functions are disabled at the moment.**
 The OMDB API is no longer able to be used due to the fact that one must now have a paid API key to access the library (https://www.patreon.com/posts/api-is-going-10743518). 
 The Spotify API was recently updated to require authentication for the use of all of its features (https://developer.spotify.com/news-stories/2017/01/27/removing-unauthenticated-calls-to-the-web-api/).
 

@@ -29,4 +29,4 @@ movie-this1507165910920 Error: Invalid Input
 ,spotify-this-song "I Believe I can Fly",movie-this1507168555943 User Input - {"command":"movie-this","arguement":""}
 1507168555947 Searching for movie at http://www.omdbapi.com/?t=Mr. Nobody&type=movie&plot=short&tomatoes=true&r=json ...
 1507168556660 Status Code: 401 Error: null
-,spotify-this-song "I Believe I can Fly",spotify-this-song "I Believe I can Fly"
+,spotify-this-song "I Believe I can Fly",spotify-this-song "I Believe I can Fly",undefined,HELP,my-tweets,my-tweetsz
