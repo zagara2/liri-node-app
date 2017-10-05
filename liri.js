@@ -21,10 +21,14 @@ var fs = require('fs')
 var command = process.argv[2];
 var request = process.argv[3];
 
+mainProcess(command, request);
+
+
+function mainProcess(command, arg) {
 
 switch (command) {
     case 'my-tweets':
-        var params = { screen_name: 'RealAlexJones', count: 20 };
+        var params = { screen_name: 'linus__torvalds', count: 20 };
         client.get('statuses/user_timeline', params, function(error, tweets, response) {
             for (var i = 0; i < tweets.length; i++) {
                 console.log('________________________________________________________________');
@@ -61,7 +65,8 @@ switch (command) {
         fs.readFile('random.txt', 'utf8', function(error, data) {
             var random = data.split(',')
             request = random[1];
-            spotifyRequest(request);
+            whatToDo = random[0];
+            mainProcess(whatToDo, request);
         });
         break
     case 'HELP':
@@ -77,7 +82,7 @@ switch (command) {
         console.log("Want to learn more about my features? Add 'HELP' to the end of your request");
         break;
 }
-
+}
 
 
 function spotifyRequest(songSearch) {

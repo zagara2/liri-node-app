@@ -1,1 +1,23 @@
-,undefined,HELP,undefined,HELP,my-tweets,spotify-this-song "I Believe I can Fly",my-tweets,my-tweets,my-tweets,my-tweets,my-tweets,my-tweets,HELP,movie-this "gamer",do-what-it-says,spotify-this-song "toxic"
+,undefined,HELP,undefined,HELP,my-tweets,spotify-this-song "I Believe I can Fly",my-tweets,my-tweets,my-tweets,my-tweets,my-tweets,my-tweets,HELP,movie-this "gamer",do-what-it-says,spotify-this-song "toxic",undefined,undefined,HELP,my-tweets,HELP,spotify-this-song "toxic",spotify-this-song "<toxic>",spotify-this-song "toxic",spotify-this-song "I Want It That Way",spotify-this-song "I Believe I can Fly",movie-this,movie-this "Mr. Nobody",movie-this "my-tweets",my-tweets,do-what-it-says
+undefined
+HELP
+mytweets,undefined,HELP,do-what-it-says,do-what-it-says
+undefined
+undefined
+mytweets
+my-tweets
+do-what-it-saysspotify-this-song,  "I Want it That Way"
+spotify-this-song
+movie-this1507165910920 Error: Invalid Input
+1507165910946 Displaying help ...
+1507165910967 ["","Usage: node liri.js [command] [arguments]","","Commands:"," -t, --tweets, my-tweets             Shows last 20 tweets and when they were created"," -s, --spotify, spotify-this-song    Shows information about the song"," -m, --movie, movie-this             Shows information about the movie"," -r, --random, do-what-it-says       Takes text inside of random.txt and then use it to call one of LIRI's commands"]
+1507165935140 User Input - {"command":"spotify-this-song","arguement":""}
+1507165935146 Searching for song  ...
+1507165952578 User Input - {"command":"movie-this","arguement":""}
+1507165952584 Searching for movie at http://www.omdbapi.com/?t=Mr. Nobody&type=movie&plot=short&tomatoes=true&r=json ...
+1507165952767 Status Code: 401 Error: null
+1507165975352 User Input - {"command":"do-what-it-says","arguement":""}
+1507165975358 Executing doWhatItSays on ./random.txt ...
+1507165975364 ./random.txt Input - ["spotify-this-song"," \"I Want it That Way\""]
+1507165975365 Searching for song  "I Want it That Way" ...
+,undefined,HELP,my-tweets,do-what-it-says
